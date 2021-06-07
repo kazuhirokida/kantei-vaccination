@@ -24,5 +24,5 @@ jobs:
       - name: Fetch data 
         uses: githubocto/flat@v2
         with:
-          http_url: https://www.kantei.go.jp/jp/content/IRYO-vaccination_data.xlsx # The data to fetch every 5 minutes
+          http_url: https://www.kantei.go.jp/jp/content/IRYO-vaccination_data2.xlsx # The data to fetch every 5 minutes
           downloaded_filename: IRYO-vaccination_data.xlsx # The http_url gets saved and renamed in our repository as btc-price.json
